@@ -35,7 +35,7 @@ The project is structured around three main components:
 
 - Built on **BERT Base**, augmented with a binary classification head
 - Predicts the probability that a sentence is *funny* or *not funny*
-- Trained on a humor detection dataset containing jokes and serious sentences
+- Trained on a humor detection dataset containing jokes and serious sentences (https://www.kaggle.com/datasets/sandhyapeesara/humor-detection-dataset)
 - Used as a proxy for human preferences (implicit RLHF)
 
 ⚠️ Note: The dataset contains a significant amount of toxic content, especially in the humorous class. Due to time constraints, extensive filtering was not performed.
